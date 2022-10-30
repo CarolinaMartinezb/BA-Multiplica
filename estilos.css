@@ -1,24 +1,98 @@
-/* *{ 
+*{ 
     margin:0;
     padding:0;
     box-sizing: border-box;
+} 
+
+/* p{
+    margin: 100px;
+    text-align: center;
 } */
+
+
+/*Navegador: */
+
+header{
+    width: 100%;
+    height: 11vh;
+    background-color:rgb(64, 179, 179);
+    position: fixed;
+    top: 0;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Manrope', sans-serif;
+} 
+
+header ul li{
+    font-size: 1.2rem;
+    list-style: none;
+    height: 100%;
+    padding: 2.8vh;
+}
+
+
+
+#navegador{
+    color: #FBFEF9;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+    list-style-type:none;
+}
+
+
+.simboloNav{
+    width: 1.3rem;
+    margin: auto 0.5vw;
+}
+
+
 
 body{
     background-color:white;
 }
 
+/* Titulo Principal */
 h1 {
-    text-align: center;
+    text-align:center;
     color:white;
-    text-shadow: 3px 1px black;
-    border: solid 2px black;
-    padding: 10px;
-    margin: 50px;
-    font-family:Georgia;
-    font-size: 40px;
-    font-weight:500;
-    background-color: rgb(77, 216, 216);
+    text-shadow: 3.5px 1px rgb(28, 71, 71);
+    padding: 180px;
+    margin: auto;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3.5rem;
+}
+
+.imagenLogo{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.parrafo1{
+    text-align: center;
+}
+
+.enlace{
+    text-decoration: none;
+    font-family:'Manrope', sans-serif;
+    margin: 40%;
+}
+
+.bannerJabones{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    background-image: url("./imagenes/flores.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -27,17 +101,27 @@ h1 {
     color:rgb(64, 179, 179);
 }
 
-ul{
+.beneficios ul{
     list-style-type:square;
+    list-style-position: outside;
+}
+
+.beneficios ul {
+    background:rgb(64, 179, 179);
+    padding: 50px;
+  }
+  
+.beneficios ul li {
+    background:rgb(164, 205, 205);
+    color:white;
+    padding: 5px;
+    margin-left: 35px;
 }
 
 .formulario{
     list-style-type:none;
 }
 
-.enlace{
-    text-decoration: none;
-}
 
 span{
     text-shadow: 0.8px 0.8px black;
@@ -45,4 +129,48 @@ span{
 
 .beneficios ul li{
     margin-bottom: 11px;
+}
+
+#imgProductos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#imgProductos img{
+    width: 45%;
+}
+
+.video{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.map{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+footer{
+    padding-top: 8vh;
+    width: 100%;
+    height: 20vh;
+    background-color:rgb(64, 179, 179); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer p{
+    color:white;
+    font-family: 'Manrope', sans-serif;
 }
